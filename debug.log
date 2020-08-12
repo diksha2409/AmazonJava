@@ -1,0 +1,17 @@
+[0806/080548.866:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0806/080548.981:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits32>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0806/080548.984:ERROR:process_info.cc(551)] ReadProcessData failed
+[0806/104943.982:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0806/104943.996:ERROR:exception_snapshot_win.cc(98)] thread ID 2376 not found in process
+[0806/104943.996:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0806/113803.285:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0806/113803.388:ERROR:exception_snapshot_win.cc(98)] thread ID 7476 not found in process
+[0806/174950.211:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0806/174950.219:ERROR:exception_snapshot_win.cc(98)] thread ID 0 not found in process
+[0806/174950.220:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0806/181313.770:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0806/181313.803:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits32>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0806/181313.803:ERROR:process_info.cc(551)] ReadProcessData failed
+[0806/183556.498:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0806/183556.526:ERROR:exception_snapshot_win.cc(98)] thread ID 6336 not found in process
+[0806/183556.526:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

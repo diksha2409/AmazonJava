@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="33049" started-at="2020-08-06T04:26:08Z" finished-at="2020-08-06T04:26:41Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="33049" started-at="2020-08-06T04:26:08Z" finished-at="2020-08-06T04:26:41Z">
+      <class name="browser.AmazonMultiBrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:browser.AmazonMultiBrowser@c756bd]" name="setup" is-config="true" duration-ms="32821" started-at="2020-08-06T04:26:08Z" finished-at="2020-08-06T04:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:browser.AmazonMultiBrowser@c756bd]" name="test1" duration-ms="13" started-at="2020-08-06T04:26:41Z" finished-at="2020-08-06T04:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- browser.AmazonMultiBrowser -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
